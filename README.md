@@ -94,3 +94,5 @@ MAE ≈ 6,979 indicates that, on average, the model's predictions are off by abo
 MSE ≈ 80.9 million reflects the squared magnitude of errors. Since MSE is highly sensitive to large deviations, this value is reasonable given the scale of the target variable.
 
 Overall, the model shows strong predictive performance, with high explanatory power and reasonably low error, making it useful for estimating profit levels based on startup expenditures and state.
+
+
