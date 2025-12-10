@@ -38,7 +38,7 @@ Startups often need to decide how to allocate budgets (R&D, Administration, Mark
 📌 **Focus Areas**  
 - Exploratory Data Analysis (EDA)  
 - Feature engineering (scaling, dummy encoding for State)  
-- Model building (linear regression baseline; extend to regularized or tree-based models)  
+- Model building (linear regression baseline)  
 - Diagnostics and assumptions for regression (residual analysis, heteroscedasticity, autocorrelation if relevant)  
 - Model evaluation and interpretation
 
@@ -65,13 +65,13 @@ All columns have no missing values in the provided file.
 - statsmodels (diagnostics and formal regression tests)  
 - Jupyter Notebook / VS Code for development
 
-🔧 **Methodology (Suggested workflow)**
+🔧 **Methodology**
 1. Load and inspect the data (shape, types, missing values).  
 2. EDA/Assumptions: distribution of features, pairplots/scatterplots, correlation matrix, boxplots for outliers.  
-3. Preprocessing: encode `State` (one-hot), scale if needed, split into train/test.  
-4. Baseline model: Linear Regression. Compute metrics (R², MAE, MSE/RMSE).  
-5. Diagnostics: residual plots, Breusch–Pagan (post-fit), Durbin–Watson (post-fit) if relevant.   
-6. Final model evaluation and interpretation; save model and present results.
+3. Preprocessing: split into train/test.  
+4. Baseline model: Linear Regression. Compute metrics (R², MAE, MSE).  
+5. Diagnostics: residual plots, Breusch–Pagan (post-fit), Durbin–Watson (post-fit) .   
+6. Final model evaluation and interpretation.
 
 📊 **Model Summary and Interpretation**
 
